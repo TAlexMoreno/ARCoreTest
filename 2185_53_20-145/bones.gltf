@@ -8,44 +8,14 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1,
-                2,
-                3,
-                4
+                0
             ]
         }
     ],
     "nodes" : [
         {
-            "name" : "Front",
-            "rotation" : [
-                0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "name" : "Top"
-        },
-        {
-            "name" : "Right",
-            "rotation" : [
-                0.5,
-                0.5,
-                -0.5,
-                0.4999999701976776
-            ],
-            "translation" : [
-                0,
-                0,
-                -1.981383204460144
-            ]
-        },
-        {
             "mesh" : 0,
-            "name" : "Plastico negro",
+            "name" : "PlasticoN",
             "rotation" : [
                 0.7071067690849304,
                 0,
@@ -57,41 +27,27 @@
                 0.004600000102072954,
                 0.004600000102072954
             ]
-        },
-        {
-            "name" : "Sun",
-            "rotation" : [
-                0.380179762840271,
-                0.025644836947321892,
-                0.25246140360832214,
-                0.8894205689430237
-            ],
-            "translation" : [
-                -55.964599609375,
-                21.977264404296875,
-                5.427809715270996
-            ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material.001",
+            "name" : "PlasticoN",
             "pbrMetallicRoughness" : {}
         },
         {
             "doubleSided" : true,
-            "name" : "Material.002",
+            "name" : "PseudoMetal",
             "pbrMetallicRoughness" : {}
         },
         {
             "doubleSided" : true,
-            "name" : "Material.003",
+            "name" : "PlasticoRojo",
             "pbrMetallicRoughness" : {}
         },
         {
             "doubleSided" : true,
-            "name" : "Material.004",
+            "name" : "Cristal",
             "pbrMetallicRoughness" : {}
         }
     ],
